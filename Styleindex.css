@@ -1,118 +1,19 @@
 *{
     margin:0;
-    padding:0;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
-body {
-	background-color: #090;
-	font-size:1em;
+body{
+    background-color: rgba(20,100,255,0.07);
+    font-family: arial;
 }
-aside,header,section#Contenedor,section#Contenido,footer{
-	background-color:#333;
-	margin: .3em auto;
-	padding:.5em;
-	vertical-align:top;
-	width:100%;
-	}
-aside, section#Contenido{
-	display:inline-block;
-	background-color:#06F;
-	min-height:200px;
-	width:73%;
-	}
-aside{
-	text-align:center;	
-	width:25%;
-	}
-footer{
-	text-align:center;
-	color:#FFF;
-	font-size:.7em;
-	}	
 header{
-	font-size:.8em;
-	color:#FFF;
-    background: url("../img/texturapasto.jpg");
-		}
-h1{
-	font-family: 'Play', sans-serif;
-	}
-	
-.subTitulos{
-	font-family: 'Play', sans-serif;
-	font-size:4em;
-	color:#0e3;
-	font-style:italic;
-	}
-
-#LogoTipo{
-	margin-left:10em;}
-
-
-
-nav{
-    width:90%;
-    margin:1em auto;
-    max-width:1000px;
-    background: #DF7401; 
+	text-align: center;
+	color: black;
 }
-
-nav ul {
-    overflow: hidden;
-	list-style: none;  
-    padding:  0 10.2em;
+pre, p{
+    text-align: justify;
+    font-family: times new roman;
+    font-size: 20px;
 }
-
-nav ul li {
-    float:  left;
-}
-
-nav ul li a{
-    color: #fff;
-    padding: 1.5em;
-    display: block; 
-    text-decoration: none;
-}
-
-nav ul li span{
-    margin-right: .5em;   
-}
-
-nav ul li a:hover{
-    background:  #0404B4;   
-    border:double;
-}
-.CajasL{
-	font-size:20px;
-	font-style:oblique;
-	border-radius:1.5em;
-	margin:.3em .5em;
-	}
-#btnEnviar{
-	display: inline-block;
-	/*margin:.6em .2em .6em 30em;*/
-	font-size:24px;
-	background-color:#F60;
-	color:#000;
-	border-radius:.3em;
-	}
-.Etiquetas{
-	font-size:1.5em;
-	color:#FFF;}
-
-.ImgRotando{
-	 transform:rotateX(0deg);
-	 transition-property: transform;
-	 transition-duration: 3s;
-	}
-.ImgRotando:hover {
-	transform:rotateX(10000deg);
-	}
-
-.iconoRS{
-	transform:scale(1.5,1.5);
-	transition:transform 2s;}
-.iconoRS:hover{
-	transform:scale(2.5,2.5);}
