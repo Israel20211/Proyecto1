@@ -1,6 +1,7 @@
 *{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0px;
+    padding: 0px;
+
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
@@ -10,15 +11,50 @@ body{
     font-family: arial;
 }
 header{
-    margin-top: 10px;
-	  text-align: center;
-	  color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    width: 100%;
+    background-image: url("images/backgroundheader.jpg");
+    background-repeat:x; 
+
+}
+h1{
+    padding:25px;
 }
 pre, p{
     text-align: justify;
     font-family: times new roman;
     font-size: 20px;
 }
-#posth{
-    margin-top: 20px;
+#hnav{
+    clear: both;
 }
+nav{
+
+    float: center;
+    background: rgba(12, 42, 74, 1);
+    width: 100%;
+    margin: 0px;
+}
+nav ul{
+    overflow:hidden;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+nav ul li a{
+    color: rgba(255,255,255,1);
+}
+nav ul li a:hover{
+
+}
+
