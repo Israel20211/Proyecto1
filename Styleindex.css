@@ -11,8 +11,14 @@ body{
 }
 header{
     margin-top: 10px;
-	  text-align: center;
-	  color: black;
+    background-color: DodgerBlue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: lightgray;
+    text-align: center;
+
 }
 pre, p{
     text-align: justify;
@@ -21,4 +27,6 @@ pre, p{
 }
 #posth{
     margin-top: 20px;
+}
+#idnav{
 }
