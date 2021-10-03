@@ -1,2 +1,3 @@
 # Proyecto1
-Esto es un repositorio donde subiré las practicas de mi tarea de programación web 1
+Archivo principal: Index.html
+Archivo de estilos en cascada: Styleindex.css

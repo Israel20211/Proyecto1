@@ -54,7 +54,7 @@ section{
 	  transition-duration: 3s;
 }
 .imagenes:hover{
-    transform:rotateX(10000deg);
+    transform:rotateX(2000deg);
 }
 section{
     margin: 10px;
@@ -74,11 +74,11 @@ section h1{
     padding: 8px;
     margin: 0px;
     vertical-align: top;
-    transform:scale(1.5,1.5);
+    transform:scale(1.2,1.2);
 	  transition:transform 2s;
 }
 #logo:hover{
-    transform:scale(2.5,2.5);
+    transform:scale(0.8,0.8);
 }
 footer{
     clear: both;
@@ -107,7 +107,7 @@ nav{
     margin: 0px;
 }
 nav ul{
-    overflow:hidden;
+    overflow:scroll;
     padding:  0 10.2em;
 }
 nav ul li{
@@ -125,7 +125,6 @@ nav ul li a{
 }
 nav ul li a:hover{
     background-color: blue;
-    border: double;
 }
 footer{
     text-align: center;
