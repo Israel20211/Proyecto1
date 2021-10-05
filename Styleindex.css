@@ -1,14 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
-
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
+    font-family:Georgia;
 }
 body{
     background-color: rgba(20,100,255,0.07);
-    font-family: arial;
 }
 .imgredes{
     width:180px;
@@ -102,28 +101,35 @@ pre, p{
     font-size: 20px;
 }
 nav{
-    background: rgba(12, 42, 74, 1);
-    width: 100%;
     margin: 0px;
+    padding: 0px;
+    background: rgba(12, 42, 74, 1);
+    background: rgba(12, 42, 74, 1);
 }
 nav ul{
-    overflow:scroll;
-    padding:  0 10.2em;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding:0;
+    margin: 0;
 }
 nav ul li{
     list-style: none;
     margin-left: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    display: block;
+    display: inline;
     float: left;
+}
+.Menu_barras{
+    display:none;
 }
 nav ul li a{
     color: rgba(255,255,255,1);
+    padding: 8px 25px;
+    text-decoration: none;
+    display: block;
 }
-nav ul li a:hover{
+nav ul li:hover{
     background-color: blue;
 }
 footer{
@@ -131,4 +137,54 @@ footer{
     font-size: 20px;
     background-color: rgba(20,100,255, 0.2);
 }
-
+@media only screen and (max-width:720px){
+    #logo{
+        margin-left: 2em;
+        width: 18%;
+    }
+    header h1{
+        font-size:15px;
+    } 
+    header h2{
+        font-size: 20px;
+    }
+    nav{
+        width: 80%;
+        height: 100%;
+        left: -120%;
+        margin:0;
+        position: fixed;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    .Menu_barras{
+        display:block;
+        width:100%;
+        font-size:18px;
+        background:rgba(12,42,74,1);
+    }
+    nav ul li{
+        padding: 0px;
+        margin: 0px;
+        display: block;
+        float: none;
+    }
+    nav ul li a{
+        text-align: left;
+        padding: 8px 16px;
+        display: block;
+        text-align: center;
+    }
+    #btnMenu{
+        display:block;
+        background:rgba(12, 42, 74, 1);
+        color: whitesmoke;
+        font-size: 15px;
+    }
+    .Menu_barras span{
+        float: left;
+        font-size:2em;  
+    }
+}
